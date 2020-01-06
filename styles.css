@@ -1,0 +1,27 @@
+button{
+    background-color: gray;
+    border: 2px solid red;
+    padding: 40px 40px;
+    border-radius: 12px;
+}
+
+#button1:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#button2:hover {
+    background-color: orange; /* Green */
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+form{
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+}
