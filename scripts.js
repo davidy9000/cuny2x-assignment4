@@ -17,9 +17,18 @@ function dontHover(){
 
 /************* Part 3 ****************/
 function submitInfo( event ){
+    event.preventDefault()
     console.log(document.getElementsByName("username")[0].value);
     console.log(document.getElementsByName("email1")[0].value);
     console.log(document.getElementsByName("pass1")[0].value);
 
-    
+    let pass = document.getElementsByName("pass1")[0].value
+    if(pass === "12345678"){
+      document.querySelector("h1").innerHTML = "SUCCESS"
+
+    }else{
+      console.log("ALERT")
+    }
+
+
 }
