@@ -1,12 +1,25 @@
+/********* Part 1 ****************/
+//  sets innerHTML to I'm right
 function buttonImRight1(){
-    document.getElementById("button2").innerHTML = "No, I'm Right";
+    document.getElementById("words").innerHTML = "I'm Right"
 }
 
+//  sets innerHTML to No I'm right
 function buttonImRight2(){
-    document.getElementById("button1").innerHTML = "No, I'm Right";
+    document.getElementById("words").innerHTML = "No, I'm Right"
 }
 
+/************* Part 2 ***************/
+//  sends alert for mouse hover
 function dontHover(){
-    // document.getElementById("donthover").innerHTML = "Hey, I told you not to hover over me!";
     alert("Hey, I told you not to hover over me!");
+}
+
+/************* Part 3 ****************/
+function submitInfo( event ){
+    console.log(document.getElementsByName("username")[0].value);
+    console.log(document.getElementsByName("email1")[0].value);
+    console.log(document.getElementsByName("pass1")[0].value);
+
+    
 }
